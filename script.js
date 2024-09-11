@@ -12,10 +12,10 @@ if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
     } else {
         let numerosOrdenadosAscendente = [num1, num2, num3].sort(function(a, b) { return a - b });
         
-        // Ordenar los números de mayor a menor
+      
         let numerosOrdenadosDescendente = [num1, num2, num3].sort(function(a, b) { return b - a });
 
-        // Imprimir los resultados
+    
         console.log("Orden de menor a mayor: " + numerosOrdenadosAscendente);
         console.log("Orden de mayor a menor: " + numerosOrdenadosDescendente);
     }
