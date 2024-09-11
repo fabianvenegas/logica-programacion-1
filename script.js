@@ -18,5 +18,8 @@ if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
     
         console.log("Orden de menor a mayor: " + numerosOrdenadosAscendente);
         console.log("Orden de mayor a menor: " + numerosOrdenadosDescendente);
+        console.log("El número mayor es: " + numerosOrdenadosDescendente[0]);
+        console.log("El número menor es: " + numerosOrdenadosAscendente[0]);
+        console.log("El número intermedio es: " + numerosOrdenadosAscendente[1]);
     }
 }
